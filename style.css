@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+html {
+  height: 100%;
+}
+a {
+  color: #fff;
+}
+body {
+  height: 100%;
+}
+main {
+  background: linear-gradient(35deg, #2719a3, #0883dd);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#container {
+  width: 368px;
+  height: 450px;
+  background-color: #fff5;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 3rem 10px #fff3;
+  padding: 2rem;
+}
+h1 {
+  font-size: 3rem;
+  margin: 1rem auto;
+}
+form {
+  width: 100%;
+}
+form label {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+form input {
+  background-color: transparent;
+  width: 100%;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+}
+form input::placeholder {
+  color: #555;
+  font-size: 0.9rem;
+}
+.reg p {
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+#container button {
+  display: block;
+  width: 80%;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  border: 2px solid #6f00ff;
+  border-radius: 0.5rem;
+}
