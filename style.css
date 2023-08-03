@@ -25,8 +25,7 @@ main {
 }
 #container {
   width: 368px;
-  height: 450px;
-  background-color: #fff5;
+  background-color: #fff8;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 3rem 10px #fff3;
   padding: 2rem;
@@ -53,12 +52,20 @@ form input {
   border-radius: 0.5rem;
 }
 form input::placeholder {
-  color: #555;
+  color: #444;
   font-size: 0.9rem;
+}
+form input:focus:valid {
+  background-color: #0a04;
+  border-color: #0a0;
+}
+form input:focus:invalid {
+  background-color: #a004;
+  border-color: #a00;
 }
 .reg p {
   font-size: 1rem;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 #container button {
   display: block;
@@ -66,6 +73,29 @@ form input::placeholder {
   padding: 0.5rem;
   margin: auto;
   margin-top: 2rem;
-  border: 2px solid #6f00ff;
+  border: 2px solid #0883dd;
   border-radius: 0.5rem;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+#container button:hover {
+  background-color: #0883dd;
+  color: #fff;
+}
+/* REGISTER */
+
+.acept {
+  display: flex;
+  margin: 0.5rem 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.acept input {
+  width: 14px;
+  margin: 0 0.2rem 0 0;
+  padding: 0;
+}
+.account {
+  display: inline-block;
+  margin: 0.8rem 0 0 0;
 }
