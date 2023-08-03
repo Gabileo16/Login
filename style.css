@@ -16,22 +16,28 @@ body {
   height: 100%;
 }
 main {
-  background: linear-gradient(35deg, #2719a3, #0883dd);
+  background-image: url(./Img/Paper_art_style_paper_art_simple_paper_illustration_high_quali_0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: linear-gradient(35deg, #2719a3, #0883dd); */
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: #fff;
 }
 #container {
   width: 368px;
-  background-color: #fff8;
+  background-color: #5558;
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 3rem 10px #fff3;
+  box-shadow: 0px 0px 1rem 5px #0006;
+  text-shadow: -2px 0 5px #000;
   padding: 2rem;
 }
 h1 {
   font-size: 3rem;
+  text-shadow: -2px 0 5px #000;
   margin: 1rem auto;
 }
 form {
@@ -52,7 +58,7 @@ form input {
   border-radius: 0.5rem;
 }
 form input::placeholder {
-  color: #444;
+  color: #fffc;
   font-size: 0.9rem;
 }
 form input:focus:valid {
